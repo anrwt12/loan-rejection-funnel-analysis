@@ -1,39 +1,45 @@
 # 🏦 Loan Rejection Funnel Analysis
+
 ### End-to-End Banking Analytics using PostgreSQL, Python & Power BI
+
+![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![Python](https://img.shields.io/badge/Python-3.x-yellow)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811)
+
+---
 
 ## 📌 Project Overview
 
-Loan approval is a critical process in the banking industry that directly impacts profitability and risk management. Financial institutions receive thousands of loan applications every month, but not every application progresses through the approval pipeline.
+Banks receive thousands of loan applications, but not every applicant successfully progresses through the approval process. Understanding where applicants drop off and the factors influencing loan rejection is essential for reducing risk and improving operational efficiency.
 
-This project analyzes the loan application journey to identify where applicants drop off, uncover the key factors influencing approval and rejection decisions, and provide actionable insights that help improve operational efficiency while minimizing lending risk.
+This project performs an end-to-end analysis of the loan application journey using PostgreSQL, Python, and Power BI to uncover approval trends, identify rejection patterns, and provide actionable business recommendations.
 
-Using SQL, Python, and Power BI, this project performs end-to-end data analysis—from data preparation and exploratory analysis to interactive dashboard development and business recommendations.
-
-
+---
 
 ## 🎯 Business Problem
 
-Banks aim to maximize loan approvals without increasing the risk of loan defaults. However, many applications are rejected due to factors such as insufficient income, poor credit history, incomplete documentation, or high financial risk.
+Financial institutions need to maximize loan approvals while minimizing the risk of loan defaults.
 
-The challenge is to identify:
+This project answers questions such as:
 
-- Where applicants exit the loan approval process.
-- Which customer segments experience the highest rejection rates.
-- Which financial and demographic factors contribute most to loan rejection.
-- How the approval process can be optimized while maintaining healthy lending standards.
+- Where do applicants drop out of the approval process?
+- Which customer groups have the highest rejection rates?
+- What financial factors contribute to loan rejection?
+- How can the approval process be optimized?
 
+---
 
 ## 🚀 Objectives
 
-- Analyze the complete loan application funnel.
-- Measure conversion rates at each stage of the approval process.
-- Identify the major reasons behind loan rejections.
-- Evaluate customer demographics and financial characteristics.
-- Discover patterns associated with high-risk applicants.
-- Build an interactive Power BI dashboard for business stakeholders.
-- Provide data-driven recommendations to improve approval efficiency and reduce risk.
+- Analyze the loan application funnel
+- Identify approval and rejection trends
+- Perform customer risk analysis
+- Discover key drivers of loan rejection
+- Build an interactive Power BI dashboard
+- Deliver business recommendations
 
-
+---
 
 ## 🛠 Tech Stack
 
@@ -45,3 +51,64 @@ The challenge is to identify:
 - Matplotlib
 - Power BI
 - Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+loan-rejection-funnel-analysis
+│
+├── data/
+├── sql/
+├── python/
+├── powerbi/
+├── images/
+├── docs/
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📊 Project Workflow
+
+```
+Raw Data
+    │
+    ▼
+Data Cleaning
+    │
+    ▼
+SQL Analysis
+    │
+    ▼
+Python EDA
+    │
+    ▼
+Power BI Dashboard
+    │
+    ▼
+Business Insights
+    │
+    ▼
+Recommendations
+```
+
+---
+
+## 📈 Dashboard Preview
+
+> Dashboard screenshots will be added after Power BI development.
+
+---
+
+## 📌 Dataset
+
+**Source:** Home Credit Default Risk Dataset (Kaggle)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
